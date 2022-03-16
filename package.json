@@ -23,7 +23,7 @@
     "engines" : { 
     "npm" : "16.9.1",
     "node" : "8.3.2"
-  }
+  },
   "devDependencies": {
     "@types/mongoose": "^5.11.97"
   }

@@ -16,9 +16,9 @@ const SignIn  = ()=>{
     const uploadPic = ()=>{
         const data = new FormData()
         data.append("file",image)
-        data.append("upload_preset","new-insta")
-        data.append("cloud_name","cnq")
-        fetch("https://api.cloudinary.com/v1_1/cnq/image/upload",{
+        data.append("upload_preset","insta-clone") //  new-insta
+        data.append("cloud_name","vipulscloud")  //cnq
+        fetch("https://api.cloudinary.com/v1_1/vipulscloud/image/upload",{  //   https://api.cloudinary.com/v1_1/cnq/image/upload
             method:"post",
             body:data
         })
@@ -31,7 +31,7 @@ const SignIn  = ()=>{
         })
     }
     const uploadFields = ()=>{
-        if(!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)){
+        if(!/^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)){
             M.toast({html: "invalid email",classes:"#c62828 red darken-3"})
             return
         }
@@ -71,7 +71,7 @@ const SignIn  = ()=>{
    return (
       <div className="mycard">
           <div className="card auth-card input-field">
-            <h2>Instagram</h2>
+            <h2>Photos Sharing App</h2>
             <input
             type="text"
             placeholder="name"

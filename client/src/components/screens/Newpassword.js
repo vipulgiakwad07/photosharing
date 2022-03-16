@@ -1,5 +1,5 @@
-import React,{useState,useContext,} from 'react'
-import {Link,useHistory,useParams} from 'react-router-dom'
+import React,{useState} from 'react'
+import {useHistory,useParams} from 'react-router-dom'
 import M from 'materialize-css'
 const SignIn  = ()=>{
     const history = useHistory()
@@ -34,7 +34,7 @@ const SignIn  = ()=>{
    return (
       <div className="mycard">
           <div className="card auth-card input-field">
-            <h2>Instagram</h2>
+            <h2>Photos Sharing App</h2>
         
             <input
             type="password"

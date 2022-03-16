@@ -20,6 +20,10 @@
     "nodemailer-sendgrid-transport": "^0.2.0",
     "react-scripts": "^5.0.0"
   },
+    "engines" : { 
+    "npm" : "16.9.1",
+    "node" : "8.3.2"
+  }
   "devDependencies": {
     "@types/mongoose": "^5.11.97"
   }

@@ -10,22 +10,11 @@
   "author": "vipul",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.26.0",
-    
     "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
-    "materialize-css": "^1.0.0",
     "mongoose": "^5.9.7",
     "nodemailer": "^6.4.6",
-    "nodemailer-sendgrid-transport": "^0.2.0",
-    "react-scripts": "^5.0.0"
-  },
-   "engines": {
-    "npm": "8.5.4",
-    "node": "16.9.1"
-  },
-  "devDependencies": {
-    "@types/mongoose": "^5.11.97"
+    "nodemailer-sendgrid-transport": "^0.2.0"
   }
 }
